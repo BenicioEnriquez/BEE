@@ -60,7 +60,7 @@ make
 ## Challenges I ran into
 Arrays were a big problem. I was under the impression that once I had successfully figured out strings, arrays would be a piece of cake. I was wrong. Arrays need to be modifiable in real time, meaning they can't simply be defined as a portion of memory in the ".data" section with a global pointer like a string can. To resolve this, I had to figure out how to dynamically allocate a portion of memory in LLVM IR and keep track of the types, which took quite a bit of time.
 
-## Accomplishments that we're proud of
+## Accomplishments that I'm proud of
 I am proud to say that **BEE** fully supports constant string types and dynamic access to arrays. Along with this, **BEE** also has support for integers, doubles, and booleans, along with their corresponding operations and control flow (such as while loops, if/else, and functions). Additionally, **BEE** has hesitant support for externally linked C libraries,  though the libraries must be compiled and linked separately.
 
 ## What I learned
